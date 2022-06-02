@@ -4,6 +4,6 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t burnmannotebook \
-                         -C "start_jupyter -t -T @tool example.ipynb" \
-                         -u anaconda-7
+                         -C "start_jupyter -t -T @tool tutorial_01_material_classes.ipynb" \
+                         -u anaconda-7 \
                          -r none
